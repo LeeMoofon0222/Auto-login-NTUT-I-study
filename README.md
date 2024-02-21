@@ -1,20 +1,19 @@
 # Auto-login-NTUT-i-study
-<h2>目的</h2>
-做這個專題的目的是為了更快速的進入北科i學員，節省更多時間。<br><br>
-驗證碼處理與識別這是這個專題的重心，因為要讓程式識別出來驗證碼有難度。畢竟驗證碼本來就是在識別機器人與人類。因此，這也成了此專題最大的挑戰。
-<h2>流程</h2>
-首先先用網頁爬蟲進入網頁，就是北科大入口網站，自動填入你的帳號還有密碼，並截圖網站上的驗證碼把它存起來。然後將圖片進行去噪處理，識別、最後輸出驗證碼的文字。<br><br>
-當驗證碼輸入錯的時候，程式就會自動重複輸入一次帳號、密碼還有驗證碼識別。直到對為止。<br><br>
-打完驗證碼之後再使用helium套件自動按按鈕，最後進入北科i學員，實現自動登入的功能。
-<h2>執行影片</h2>
+<h2>Purpose</h2>
+The purpose of this project is to expedite access to the NTUT iStudy platform and save more time. <br><br>
+Processing and recognizing verification codes are the focal points of this project because making the program identify the verification code poses a challenge. After all, verification codes are designed to distinguish between robots and humans. Therefore, this has become the biggest challenge of this project.
+<h2>Process</h2>
+First, a web crawler is used to access the webpage, which is the entrance portal of NCTU. It automatically fills in your account and password and takes a screenshot of the verification code on the website and saves it. Then, the image is processed to remove noise, recognized, and finally outputs the text of the verification code. <br><br>
+When the verification code is entered incorrectly, the program will automatically repeat the process of entering the account, password, and verification code recognition until it is correct.
+<h2>Execution Video</h2>
 https://youtu.be/THIRfXeIIFs
-<h2>使用套件:</h2>
+<h2>Packages</h2>
 selenium.webdriver<br>
 helium<br>
 pytesseract<br>
 cv2<br>
 numpy<br>
-<h2>介紹</h2>
+<h2>Intro</h2>
 <img src="https://github.com/LeeMoofon0222/Auto-login-NTUT-i-study/blob/main/ReadMe_Picture/Pic1.png?raw=true">
 <img src="https://github.com/LeeMoofon0222/Auto-login-NTUT-i-study/blob/main/ReadMe_Picture/Pic2.png?raw=true">
 <img src="https://github.com/LeeMoofon0222/Auto-login-NTUT-i-study/blob/main/ReadMe_Picture/Pic3.png?raw=true">
